@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Verified login page title]]>
+    </line>
+    <line>
+      <![CDATA[entered username]]>
+    </line>
+    <line>
+      <![CDATA[entered password]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login]]>
+    </line>
+    <line>
+      <![CDATA[Verified dashboard tab present]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on profile]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on logout]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-18T09:31:52 IST" name="Suite" finished-at="2023-01-18T09:31:56 IST" duration-ms="3806">
+    <groups>
+    </groups>
+    <test started-at="2023-01-18T09:31:52 IST" name="Test" finished-at="2023-01-18T09:31:56 IST" duration-ms="3806">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:tests.LoginTest@248e319b]" started-at="2023-01-18T09:31:45 IST" name="initalization" finished-at="2023-01-18T09:31:52 IST" duration-ms="7197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.LoginTest@248e319b]" started-at="2023-01-18T09:31:52 IST" name="init" finished-at="2023-01-18T09:31:52 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyPageTitle()[pri:1, instance:tests.LoginTest@248e319b]" started-at="2023-01-18T09:31:52 IST" name="verifyPageTitle" finished-at="2023-01-18T09:31:52 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verified login page title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method signature="login()[pri:2, instance:tests.LoginTest@248e319b]" started-at="2023-01-18T09:31:52 IST" name="login" finished-at="2023-01-18T09:31:53 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[entered username]]>
+            </line>
+            <line>
+              <![CDATA[entered password]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@248e319b]" started-at="2023-01-18T09:31:56 IST" name="tearDown" finished-at="2023-01-18T09:31:56 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomeTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.HomeTest@7ef82753]" started-at="2023-01-18T09:31:53 IST" name="init" finished-at="2023-01-18T09:31:53 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="logout()[pri:0, instance:tests.HomeTest@7ef82753]" started-at="2023-01-18T09:31:53 IST" name="logout" finished-at="2023-01-18T09:31:56 IST" duration-ms="2944" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verified dashboard tab present]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on profile]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
